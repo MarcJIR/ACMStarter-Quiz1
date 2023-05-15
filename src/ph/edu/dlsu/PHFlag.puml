@@ -1,0 +1,15 @@
+@startuml
+class ph.edu.dlsu.PHFlag {
++ void run()
++ {static} void main(String[])
+}
+
+class ph.edu.dlsu.GStar{
++ GStar(double size)
++ GStar(double x, double y, double size)
+}
+
+
+ph.edu.dlsu.GraphicsProgram <|-- ph.edu.dlsu.PHFlag
+ph.edu.dlsu.PHFlag *-- ph.edu.dlsu.GStar
+@enduml

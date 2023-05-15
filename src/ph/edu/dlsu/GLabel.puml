@@ -1,0 +1,20 @@
+@startuml
+class GLabel {
+
++ {static} Font DEFAULT_FONT
++ GLabel(String string)
++ GLabel(String string, double x, double y)
++ double getAscent()
++ GRectangle getBounds()
++ double getDescent()
++ Font getFont()
++ double getHeight()
++ String getLabel()
++ double getWidth()
++ void setFont(Font font)
++ void setFont(String str)
++ void setLabel(String str)
+}
+
+
+@enduml
