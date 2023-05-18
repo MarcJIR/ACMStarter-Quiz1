@@ -1,0 +1,13 @@
+@startuml
+class ph.edu.dlsu.AggCom {
++ void run()
++ {static} void main(String[])
++ void addHotel()
++ void addRooms()
++ void addPerson()
++ void explanations()
+}
+
+
+acm.graphics.GraphicsProgram <|-- ph.edu.dlsu.AggCom
+@enduml

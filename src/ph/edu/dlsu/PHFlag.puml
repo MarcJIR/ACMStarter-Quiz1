@@ -2,6 +2,11 @@
 class ph.edu.dlsu.PHFlag {
 + void run()
 + {static} void main(String[])
++ void addBlue()
++ void addRed()
++ void addStars()
++ void addSun()
++ void addName()
 }
 
 class ph.edu.dlsu.GStar{
@@ -10,6 +15,6 @@ class ph.edu.dlsu.GStar{
 }
 
 
-ph.edu.dlsu.GraphicsProgram <|-- ph.edu.dlsu.PHFlag
+acm.program.GraphicsProgram <|-- ph.edu.dlsu.PHFlag
 ph.edu.dlsu.PHFlag *-- ph.edu.dlsu.GStar
 @enduml
